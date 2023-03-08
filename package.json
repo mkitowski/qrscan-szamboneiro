@@ -1,0 +1,35 @@
+{
+  "name": "fotokitek",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@googleapis/drive": "^2.3.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.0",
+    "fs": "^0.0.1-security",
+    "next": "12.1.6",
+    "next-pwa": "^5.6.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-swipeable": "^7.0.0",
+    "react-qr-reader": "3.0.0-beta-1"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.40",
+    "@types/passport-google-oauth20": "^2.0.11",
+    "@types/react": "17.0.53",
+    "@types/react-dom": "17.0.5",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "react-jss": "10.9.0",
+    "typescript": "4.7.3"
+  }
+}
