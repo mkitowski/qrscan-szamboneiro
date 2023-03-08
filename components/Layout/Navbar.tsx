@@ -1,21 +1,14 @@
-import React, { FC, useEffect, useState } from "react";
-import { Box, Button, IconButton, Menu, MenuItem, useMediaQuery } from "@mui/material";
+import React, {FC, ReactNode,} from "react";
 import { PageTitle } from "../PageTitle";
 import { useRouter } from "next/router";
 import Head from "next/head";
 
 import { menu, } from "../../utils/getNames";
+import {Box} from "@mui/material";
 
-
-
-
-export const Navbar: FC = ({pageName}: {pageName?: string}) => {
+export const Navbar = ({pageName}: {pageName?: string;}) => {
     const route = useRouter();
-
-
-
     const name = menu.filter(el => el.href === route.route)[0]?.name || pageName;
-
     return (
         <>
             <Head>
